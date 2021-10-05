@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{ inteiro multi,limite,contador,resultado
+	contador = 0
+	limite = 10
+		escreva("Qual tabuada gostaria?" + "\n")
+		leia(multi)
+	faca {	
+		resultado = multi * contador
+		escreva ( multi + " x " + contador + " = " + resultado + "\n")
+		contador = contador + 1 
+		
+		
+		
+		} enquanto (contador <= 10)
+	}
+}
